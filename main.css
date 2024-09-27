@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color:#E7E7E7 ;
+    padding-top: 100px;
+}
+
+header{
+    display: flex;
+}
+
+header img{
+    height: 40px;
+    margin-right: 16px;
+    margin-top: 8px;
+}
+
+header h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    border: 3px dotted rgb(30, 30, 30);
+    border-radius: 5px;
+    background-color: #fbfbfb;
+    padding: 30px;
+}
+
+form{
+    display:grid;
+}
+
+form button,
+form input{    
+    margin-bottom: 18px;
+    border-radius: 5px;
+}
+
+form button{
+    background-color: #009432;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 8px;
+    border: 2px solid #000;
+}
+
+form button:hover{
+    background-color: #03521d;
+    border: 2px solid #88fda9;
+}
+
+form input{
+    font-size: 18px;
+    color: #000000;
+    border: 2px solid #000;
+    padding: 8px;
+}
+
+table{
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+}
+
+table th{
+    border-bottom: 2px solid #000;
+    padding: 16px;
+    font-size: 24;
+    font-weight: bold;
+}
+
+table td{
+    padding: 16px 0;
+    text-align:center ;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+table td img{
+    height: 30px;
+}
+
+#DDD{
+    background-color: #009432;
+}
+

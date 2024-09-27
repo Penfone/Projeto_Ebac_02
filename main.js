@@ -19,7 +19,7 @@ function adicionaLinha(){
 
     if(inputNomeContato.value == ''){
         alert("Insira um nome válido");
-    }else if(inputNumeroContato.length > 11 || inputNomeContato < 10){
+    }else if(inputNumeroContato.value.length > 11 || inputNomeContato.value.length < 10){
         alert("Insira um número válido");
     }else{
     

@@ -16,10 +16,11 @@ function adicionaLinha(){
     const inputNumeroContato = document.getElementById('numero');
 
     inputNomeContato.value = inputNomeContato.value.trim(); 
+    inputNumeroContato.value = inputNumeroContato.value.trim();
 
     if(inputNomeContato.value == ''){
         alert("Insira um nome válido");
-    }else if(inputNumeroContato.value.length > 11 || inputNomeContato.value.length < 10){
+    }else if(inputNumeroContato.value.length < 10 || inputNumeroContato.value.length > 11){
         alert("Insira um número válido");
     }else{
     
